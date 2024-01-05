@@ -20,10 +20,12 @@ print(a + b) # output : [1, 2, 3, 4, 5, 6]
 print(a * 2) # output : [1, 2, 3, 1, 2, 3]
 
 #리스트 문자열과 더하기
+a = [1, 2, 3]
 print(a[2] + "hi") # output : Error, 정수와 문자열은 더할 수 없음.
 print(str(a[2]) + "hi") # output : 3hi
 
 #리스트 길이 구하기
+a = [1, 2, 3]
 len(a) # output : 3
 
 #리스트 값 수정하기
